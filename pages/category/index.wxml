@@ -1,0 +1,13 @@
+<!--pages/category/index.wxml-->
+<view class="cates">
+<SerchInput></SerchInput>
+<!-- 左侧数据 -->
+<view class="cates_contant">
+<!-- 左侧数据 -->
+<scroll-view class="left_menu" scroll-y="true">
+
+</scroll-view>
+<!-- 右侧数据 -->
+<scroll-view class="right_menu"></scroll-view>
+</view>
+</view>

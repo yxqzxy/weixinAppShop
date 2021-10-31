@@ -1,0 +1,19 @@
+/* pages/category/index.wxss */
+page{
+  width: 100%;
+}
+.cates{
+  height:100%
+}
+.cates_contant{
+  height: calc( 100vh - 90rpx);
+  display: flex;
+}
+.left_menu{
+  flex:2;
+  background-color: salmon;
+}
+.right_menu{
+  flex:5;
+  background-color: seagreen;
+}

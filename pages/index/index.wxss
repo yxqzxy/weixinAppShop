@@ -1,0 +1,34 @@
+/* 轮播图 */
+.siwper_image swiper{
+  width:750rpx;
+  height:340rpx;
+}
+.siwper_image swiper image{
+ width: 100%;
+}
+
+/* 导航 */
+.cartlist {
+  display: flex;
+  justify-content: center;
+}
+.cartlist navigator{
+  flex:1
+}
+.cartlist navigator image{
+  padding: 20rpx;
+  width: 100%;
+}
+
+/* 楼层 */
+.floor_neirong navigator{
+  float: left;
+  width: 33.33%;
+}
+.floor_neirong navigator image{
+  width: 100%;
+}
+.floor_group:nth-child(n+2) .floor_neirong navigator:nth-child(4n) {
+  position: relative;
+  top: -65rpx;
+}
